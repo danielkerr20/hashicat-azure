@@ -17,6 +17,8 @@ resource "azurerm_resource_group" "myresourcegroup" {
 
   tags = {
     environment = "Production"
+    Billable = "yes"
+    Department = "ff"
   }
 }
 
